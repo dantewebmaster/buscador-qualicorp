@@ -1,0 +1,89 @@
+.plans-list {
+  margin: 16px 0;
+  padding: 0;
+  list-style-type: none;
+  
+  .plans-list-header {
+    display: flex;
+    justify-content: space-between;
+     
+    p {
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+
+.plan-item {
+  background: #fff;
+  margin: 10px 0 0;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // box-shadow: 1px 0 5px #ddd;
+
+  .plan-logo {
+    display: flex;
+    overflow: hidden;
+    
+    img {
+      border-radius: 4px;
+      border: 1px solid #d9d9d9;
+      max-width: 80px;
+    }
+  }
+
+  .plan-name {
+    h3 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 0;
+      line-height: 14px;
+      text-overflow: ellipsis;
+    }
+
+    small {
+      display: block;
+      line-height: 14px;
+      font-size: 10px;
+      margin-top: 5px;
+    }
+  }
+
+  .plan-coverage {
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px;
+    text-transform: uppercase;
+  }
+
+  .plan-prices {
+    font-size: 12px;
+    color: #2fa822;
+  }
+}
+
+.panel {
+  .panel-details {
+    overflow: hidden;
+    height: 0;
+  }
+}
+
+.col-large {
+  width: 45%;
+  text-align-last: left;
+}
+
+.col-small {
+  width: 20%;
+}
+
+.col-thin {
+  width: 15%;
+}
