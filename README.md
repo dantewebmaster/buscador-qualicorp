@@ -11,3 +11,6 @@ Para iniciar a aplicação rode o comando.<br />
 `yarn start` ou `npm start`
 
 Abra a url [http://localhost:3000](http://localhost:3000) caso ela não abra automaticamente.
+
+
+![Screenshot da aplicação](screenshot.png)
